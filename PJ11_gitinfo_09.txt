@@ -1,7 +1,4 @@
 Студент №9
-Commit hash: Қате: fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
-Use '--' to separate paths from revisions, like this:
-'git <command> [<revision>...] -- [<file>...]'
-HEAD
-Commit date: Қате: fatal: your current branch 'master' does not have any commits yet
+Commit hash: 4dd2236e412b9caa97eed7d7aad156f39eb1929a
+Commit date: Mon Nov 10 18:23:34 2025 +0500
 Build time: 2025-11-10 18:23:34
