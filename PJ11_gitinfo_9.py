@@ -34,7 +34,7 @@ def push_to_github(build_time):
     commit_message = f"Автоматтық build info жаңартуы: {build_time}"
     print(run_command(['git', 'add', '.']))
     print(run_command(['git', 'commit', '-m', commit_message]))
-    print(run_command(['git', 'push', 'origin', 'main']))
+    print(run_command(['git', 'push', 'origin', 'master']))
 
 if __name__ == "__main__":
     build_time = save_build_info()
@@ -75,7 +75,7 @@ def push_to_github(build_time):
     commit_message = f"Автоматтық build info жаңартуы: {build_time}"
     print(run_command(['git', 'add', '.']))
     print(run_command(['git', 'commit', '-m', commit_message]))
-    print(run_command(['git', 'push', 'origin', 'main']))
+    print(run_command(['git', 'push', 'origin', 'master']))
 
 if __name__ == "__main__":
     build_time = save_build_info()
